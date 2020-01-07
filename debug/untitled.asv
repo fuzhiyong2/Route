@@ -1,0 +1,10 @@
+Rfilename = ['../datepre/preS',num2str(5),'.txt'];
+xRxR./3
+[xR,yR] = textread(Rfilename,'%n%n');
+figure(1)
+plot(xR,yR);
+
+Rfilename = ['../datepre/pre',num2str(5),'.txt'];
+[xR,yR] = textread(Rfilename,'%n%n');
+figure(2)
+plot(xR,yR);
